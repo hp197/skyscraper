@@ -630,23 +630,29 @@ QString ScreenScraper::getPlatformId(const QString platform)
     return "29";
   } else if(platform == "3ds") {
     return "17";
+  } else if(platform == "adam") {
+    return "89";
+  } else if(platform == "advision") {
+    return "78";
   } else if(platform == "amiga") {
     return "64";
+  } else if(platform == "amigacd32") {
+    return "130";
+  } else if(platform == "amigacdtv") {
+    return "129";
   } else if(platform == "aga") {
     return "111";
-  } else if(platform == "cd32") {
-    return "130";
-  } else if(platform == "cdtv") {
-    return "129";
   } else if(platform == "amstradcpc") {
     return "65";
   } else if(platform == "apple2") {
     return "86";
+  } else if(platform == "apple2gs") {
+    return "217";
   } else if(platform == "arcade") {
     return "75";
   } else if(platform == "arcadia") {
     return "94";
-  } else if(platform == "astrocde") {
+  } else if(platform == "astrocade") {
     return "44";
   } else if(platform == "atari800") {
     return "43";
@@ -662,12 +668,14 @@ QString ScreenScraper::getPlatformId(const QString platform)
     return "28";
   } else if(platform == "atarist") {
     return "42";
-  } else if(platform == "c16") {
-    return "na";
+  } else if(platform == "atarixegs") {
+    return "160";
   } else if(platform == "c64") {
     return "66";
-  } else if(platform == "c128") {
-    return "na";
+  } else if(platform == "cdi") {
+    return "133";
+  } else if(platform == "channelf") {
+    return "80";
   } else if(platform == "coco") {
     return "144";
   } else if(platform == "coleco") {
@@ -678,6 +686,8 @@ QString ScreenScraper::getPlatformId(const QString platform)
     return "91";
   } else if(platform == "dreamcast") {
     return "23";
+  } else if(platform == "electron") {
+    return "85";
   } else if(platform == "fba") {
     return "75";
   } else if(platform == "fds") {
@@ -686,6 +696,8 @@ QString ScreenScraper::getPlatformId(const QString platform)
     return "52";
   } else if(platform == "gamegear") {
     return "21";
+  } else if(platform == "gamepock") {
+    return "95";
   } else if(platform == "gb") {
     return "9";
   } else if(platform == "gba") {
@@ -696,6 +708,8 @@ QString ScreenScraper::getPlatformId(const QString platform)
     return "13";
   } else if(platform == "genesis") {
     return "1";
+  } else if(platform == "gx4000") {
+    return "87";
   } else if(platform == "intellivision") {
     return "115";
   } else if(platform == "mame-advmame") {
@@ -710,8 +724,16 @@ QString ScreenScraper::getPlatformId(const QString platform)
     return "20";
   } else if(platform == "megadrive") {
     return "1";
+  } else if(platform == "megaduck") {
+    return "90";
   } else if(platform == "msx") {
     return "113";
+  } else if(platform == "msx2") {
+    return "116";
+  } else if(platform == "msx2plus") {
+    return "117";
+  } else if(platform == "msxturbor") {
+    return "118";
   } else if(platform == "n64") {
     return "14";
   } else if(platform == "nds") {
@@ -726,18 +748,22 @@ QString ScreenScraper::getPlatformId(const QString platform)
     return "25";
   } else if(platform == "ngpc") {
     return "82";
+  } else if(platform == "openbor") {
+    return "214";
   } else if(platform == "oric") {
     return "131";
   } else if(platform == "pc") {
     return "135";
   } else if(platform == "pc88") {
-    return "na";
+    return "221";
   } else if(platform == "pc98") {
     return "208";
-  } else if(platform == "pcfx") {
-    return "72";
   } else if(platform == "pcengine") {
     return "31";
+  } else if(platform == "pcenginecd") {
+    return "114";
+  } else if(platform == "pcfx") {
+    return "72";
   } else if(platform == "pokemini") {
     return "211";
   } else if(platform == "ports") {
@@ -750,18 +776,36 @@ QString ScreenScraper::getPlatformId(const QString platform)
     return "57";
   } else if(platform == "saturn") {
     return "22";
+  } else if(platform == "samcoupe") {
+    return "213";
+  } else if(platform == "satellaview") {
+    return "107";
   } else if(platform == "scummvm") {
     return "123";
+  } else if(platform == "scv") {
+    return "67";
   } else if(platform == "sega32x") {
     return "19";
   } else if(platform == "segacd") {
     return "20";
   } else if(platform == "sg-1000") {
     return "109";
+  } else if(platform == "sgb") {
+    return "127";
   } else if(platform == "snes") {
     return "4";
+  } else if(platform == "snesmsu1") {
+    return "210";
+  } else if(platform == "sufami") {
+    return "108";
+  } else if(platform == "supergrafx") {
+    return "105";
+  } else if(platform == "supervision") {
+    return "207";
   } else if(platform == "ti99") {
     return "205";
+  } else if(platform == "thomson") {
+    return "141";
   } else if(platform == "trs-80") {
     return "144";
   } else if(platform == "vectrex") {
@@ -780,12 +824,10 @@ QString ScreenScraper::getPlatformId(const QString platform)
     return "45";
   } else if(platform == "wonderswancolor") {
     return "46";
+  } else if(platform == "x1") {
+    return "220";
   } else if(platform == "x68000") {
     return "79";
-  } else if(platform == "x1") {
-    return "na";
-  } else if(platform == "zmachine") {
-    return "na";
   } else if(platform == "zx81") {
     return "77";
   } else if(platform == "zxspectrum") {
