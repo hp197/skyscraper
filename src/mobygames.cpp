@@ -405,7 +405,7 @@ QString MobyGames::getPlatformId(const QString platform)
     return "na";
   } else if(platform == "arcadia") {
     return "162";
-  } else if(platform == "astrocde") {
+  } else if(platform == "astrocode") {
     return "160";
   } else if(platform == "atari800") {
     return "39";
